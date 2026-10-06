@@ -1,2 +1,3 @@
 # qa-portafolio
-mi 1er repositorio
+
+quiero ser QA con automatización en 10 meses
