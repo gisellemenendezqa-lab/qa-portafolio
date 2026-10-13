@@ -1,0 +1,11 @@
+Titulo:Con error_user, el campo “Last name” del checkout no muestra el texto que se escribe
+Entorno: Navegador Google Chrome Version 154, saucedemo.com
+
+Pasos:
+Paso 1:Iniciar sesión con error_user y secret_sauce.
+Paso 2:Pulsar “Add to cart” en “Sauce Labs Backpack”, abrir el carrito y pulsar “Checkout”.
+Paso 3:Escribir “Perez” en el campo “Last name”.
+
+Resultado actual: el campo “Last name” queda vacío; el texto escrito no aparece.
+Resultado esperado: el texto “Perez” aparece en el campo “Last name”.
+Evidencia:captura del campo vacío después de escribir.
