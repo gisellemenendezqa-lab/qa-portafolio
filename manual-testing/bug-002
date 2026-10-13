@@ -1,0 +1,13 @@
+Título: Al cerrar sesión con standard_user y entrar con problem_user, el carrito conserva el producto del usuario anterior
+Entorno: Navegador Google Chrome Version 154, saucedemo.com
+
+Pasos:
+Paso 1:Iniciar sesión con standard_user y secret_sauce.
+Paso 2:Pulsar “Add to cart” en “Sauce Labs Backpack”; el contador muestra 1.
+Paso 3:Menú → Logout.
+Paso 4:Iniciar sesión con problem_user y secret_sauce.
+
+Resultado actual: el ícono del carrito muestra 1 y el carrito contiene “Sauce Labs Backpack”, que añadió standard_user.
+Resultado esperado: el carrito de problem_user aparece vacío y no hay contador en el ícono.
+Nota de verificación: en una ventana privada, el carrito empieza vacío, lo que sugiere que el carrito se guarda en el navegador y no por usuario.
+Evidencia: captura de pantalla del paso 4.
