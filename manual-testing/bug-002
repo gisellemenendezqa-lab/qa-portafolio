@@ -11,3 +11,4 @@ Resultado actual: el ícono del carrito muestra 1 y el carrito contiene “Sauce
 Resultado esperado: el carrito de problem_user aparece vacío y no hay contador en el ícono.
 Nota de verificación: en una ventana privada, el carrito empieza vacío, lo que sugiere que el carrito se guarda en el navegador y no por usuario.
 Evidencia: captura de pantalla del paso 4.
+Revisado el dia 19 
