@@ -3,3 +3,4 @@
 quiero ser QA con automatización en 10 meses
 
 editado por leo. ok
+Editado desde GitHub
