@@ -23,6 +23,7 @@ o solo símbolos?
 
 - Si la respuesta es **sí**, lo registraré como bug con el comportamiento esperado
   que se indique.
+  
 - Si la respuesta es **no**, cierro esta observación sin acción.
 
 **Estado:** pendiente de respuesta.
