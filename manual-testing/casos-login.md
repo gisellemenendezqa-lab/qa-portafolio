@@ -34,25 +34,25 @@ Pasos:
 Resultado esperado: aparece una franja roja, debajo de los campos, el mensaje Epic sadface: Username and password do not match any user in this service 
 El usuario permanece en la pantalla de login y no se muestra la lista de productos.
 
-ID: TC-006
-Titulo: usuario inexistente (usuario_falso) con contraseña correcta "secret_sauce" .
-Precondicion: estar en la pantalla de login de saucedemo.com.
-Datos: usuario inexistente "usuario_falso" y contraseña "secret_sauce".
+ID: TC-006\
+Titulo: usuario inexistente (usuario_falso) con contraseña correcta "secret_sauce" .\
+Precondicion: estar en la pantalla de login de saucedemo.com.\
+Datos: usuario inexistente "usuario_falso" y contraseña "secret_sauce".\
 Pasos: 
 1. Escribir usuario_falso en el campo de usuario.
 2. Escribir secret_sauce en el campo de contraseña.
-3. Pulsar login.
+3. Pulsar login.\
 Resultado esperado: aparece una franja roja, debajo de los campos, el mensaje Epic sadface: Username and password do not match any user in this service 
 El usuario permanece en la pantalla de login y no se muestra la lista de productos.
 
 
-ID: TC-007 
-Titulo:usuario inexistente (usuario_falso) con contraseña incorrecta (clave_mala).
-Precondicion: estar en la pantalla de login de saucedemo.com.
-Datos: usuario inexistente "usuario_falso" y contraseña "clave_mala".
-Pasos:
+ID: TC-007 \
+Titulo:usuario inexistente (usuario_falso) con contraseña incorrecta (clave_mala).\
+Precondicion: estar en la pantalla de login de saucedemo.com.\
+Datos: usuario inexistente "usuario_falso" y contraseña "clave_mala".\
+Pasos:\
 1. Escribir usuario_falso en el campo de usuario.
 2. Escribir clave_mala en el campo de contraseña.
-3. Pulsar login.
+3. Pulsar login.\
 Resultado esperado: aparece una franja roja, debajo de los campos, el mensaje Epic sadface: Username and password do not match any user in this service 
 El usuario permanece en la pantalla de login y no se muestra la lista de productos.
