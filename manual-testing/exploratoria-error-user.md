@@ -44,4 +44,13 @@
 - Tiempo usado: 25 minutos.
 - Áreas exploradas: ordenamiento, lista de productos, carrito, checkout y finalización de compra.
 - Hallazgos: 6 posibles bugs, todos con error_user.
-- Bugs registrados en Jira: 0 de 6 (pendientes).
+- Bugs registrados en Jira: 6 de 6.
+
+| # | Hallazgo | Estado |
+|---|---|---|
+| 1 | Finish no completa la compra | Registrado: SCRUM-9 |
+| 2 | Add to cart no añade productos | Registrado: SCRUM-10 |
+| 3 | Remove no quita el artículo | Ya reportado: SCRUM-5 |
+| 4 | Last Name no acepta texto | Ya reportado: SCRUM-6 |
+| 5 | Detalle de producto sin descripción | Registrado: SCRUM-11 |
+| 6 | Ordenar no cambia el orden | Registrado: SCRUM-12 |
