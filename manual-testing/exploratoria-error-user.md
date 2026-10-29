@@ -13,7 +13,7 @@
   Vi: los productos se mantienen en el mismo orden, no hay cambios.
 - Hice: pulsé Remove en la lista de productos con Sauce Labs Backpack en el carrito.
   Vi: el botón sigue diciendo Remove y el producto no se elimina.
-- Hice: pulsé Add to cart en los productos desde Sauce Labs Bolt T-Shirt hacia abajo.
+- Hice: pulsé Add to cart en los productos  Sauce Labs Bolt T-Shirt, Sauce Labs Fleece Jacket y Test.allTheThings() T-Shirt (Red).
   Vi: los productos no se añaden al carrito.
 - Hice: hice clic en un producto.
   Vi: solo se muestra el nombre del producto y el precio.
@@ -28,7 +28,7 @@
 | # | Título | Impacto | Estado |
 |---|---|---|---|
 | 1 | Con error_user, el botón Finish no completa la compra | El cliente no puede terminar su compra | Por registrar en Jira |
-| 2 | Con error_user, Add to cart no añade productos desde Sauce Labs Bolt T-Shirt hacia abajo | El cliente no puede comprar la mayoría de los productos | Por registrar en Jira |
+| 2 | Con error_user, Add to cart no añade los productos Sauce Labs Bolt T-Shirt, Sauce Labs Fleece Jacket y Test.allTheThings() T-Shirt (Red). | El cliente no puede comprar la mayoría de los productos | Por registrar en Jira |
 | 3 | Con error_user, Remove en la lista de productos no quita el artículo | El cliente no puede corregir su carrito desde la lista | Por registrar en Jira |
 | 4 | Con error_user, el campo Last Name no acepta texto y el formulario avanza con él vacío | No se puede completar el formulario de checkout | Por registrar en Jira |
 | 5 | Con error_user, al seleccionar un producto solo se muestran el nombre y el precio, sin descripción | El cliente no puede ver el detalle antes de comprar | Por registrar en Jira |
