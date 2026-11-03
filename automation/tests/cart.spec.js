@@ -23,3 +23,10 @@ test('standard_user puede añadir un producto al carrito', async ({ page }) => {
   // Verificación: el carrito muestra 1
   await expect(page.locator('[data-test="shopping-cart-link"]')).toHaveText('1');
 });
+
+test('standard_user puede quitar un producto del carrito', async ({ page }) => {
+  await page.locator('[data-test="add-to-cart-sauce-labs-backpack"]').click();
+  await expect(page.locator('[data-test="shopping-cart-badge"]')).toHaveText('1');   // antes: se ve el 1
+  await page.locator('[data-test="remove-sauce-labs-backpack"]').click();
+  await expect(page.locator('[data-test="shopping-cart-badge"]')).not.toBeVisible(); // después: ya no se ve
+});
