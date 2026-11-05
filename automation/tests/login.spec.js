@@ -1,21 +1,17 @@
 const { test, expect } = require('@playwright/test');
+const { LoginPage } = require('../pages/LoginPage');
 
 test('standard_user puede iniciar sesión', async ({ page }) => {
-  // Acciones
-  await page.goto('https://www.saucedemo.com/');
-  await page.locator('[data-test="username"]').fill('standard_user');
-  await page.locator('[data-test="password"]').fill('secret_sauce');
-  await page.locator('[data-test="login-button"]').click();
-
-  // Verificación
+  const loginPage = new LoginPage(page);
+  await loginPage.abrir();
+  await loginPage.iniciarSesion('standard_user', 'secret_sauce');
   await expect(page.locator('[data-test="title"]')).toHaveText('Products');
 });
 
 test('login con contraseña incorrecta muestra error', async ({ page }) => {
-  await page.goto('https://www.saucedemo.com/');
-  await page.locator('[data-test="username"]').fill('standard_user');
-  await page.locator('[data-test="password"]').fill('clave_mala');
-  await page.locator('[data-test="login-button"]').click();
+ const loginPage = new LoginPage(page);
+  await loginPage.abrir();
+  await loginPage.iniciarSesion('standard_user', 'clave_mala');
 
-  await expect(page.locator('[data-test="error"]')).toContainText('Epic sadface: Username and password do not match any user in this service');
+  await expect(loginPage.mensajeError).toContainText('Epic sadface: Username and password do not match any user in this service');
 });
